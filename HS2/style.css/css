@@ -1,0 +1,103 @@
+/* Nav Bar */
+.navbar {
+  background-image: url("../images/SunsetJason.jpg");
+  background-attachment: fixed;
+  max-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #04788c;
+  font-size: 18px;
+  font-family: monospace;
+}
+.navbar ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 30px;
+  margin: 20px;
+}
+.brand {
+  font-size: 22px;
+  font-color: #f43f06;
+  font-family: cursive;
+  z-index: 1;
+}
+
+/*body */
+body {
+}
+
+/* buttons */
+button {
+  font-family: cursive;
+  font-weight: bold;
+  background-color: #9eebea;
+}
+
+/*Hickory */
+ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+li {
+  border: 1px solid #9eebea;
+}
+
+
+/* flower pictures */
+.flower {
+  background-image: url("../images/purpleflowers.jpg");
+  background-attachment: fixed;
+  max-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: rgba(0,0,0,0);
+
+}
+
+.flower1 {
+    background-image: url("../images/columbineflower.jpg");
+    background-attachment: fixed;
+    max-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgba(0,0,0,0);
+}
+
+/*about*/
+aside {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  background-image: url("../images/beforewood.jpeg");
+  background-attachment: fixed;
+  max-height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/* footer*/
+footer {
+  font-size: 18px;
+  font-family: cursive;
+  text-align: center;
+  color: white;
+  background-color: #10bfbf;
+  text-transform: capitalize;
+}
+
+footer li{
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
